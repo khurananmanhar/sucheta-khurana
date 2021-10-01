@@ -21,9 +21,9 @@ class Arise extends React.Component {
                     <p className="description">{information.description}</p>
                 </div>
                 <div className="imageContainer">
-                    <img src={information.image[0]} alt="Image with brown, orange, and blue background of Arise and Go's popped water lilly seeds" />
-                    <img src={information.image[1]} alt="Image of multiple Arise and Go's popped water lilly packets with a blue background" />
-                    <img src={information.image[2]} alt="Image two people high-fiving with popper water lilly seeds with a brown background that reads Happy Snacking(Grignotage Heureux)" />
+                    <img src={information.image[0]} alt="Brown, orange, and blue background of Arise and Go's popped water lilly seeds" />
+                    <img src={information.image[1]} alt="Multiple Arise and Go's popped water lilly packets with a blue background" />
+                    <img src={information.image[2]} alt="Two people high-fiving with popper water lilly seeds with a brown background that reads Happy Snacking(Grignotage Heureux)" />
                 </div>
                 <p className="description bottomDesc">{information.description2}</p>
             </div>

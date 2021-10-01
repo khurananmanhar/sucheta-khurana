@@ -28,7 +28,7 @@ class Maneta extends React.Component{
                     <img src={information.logo} alt="Maneta Logo"/>
                     <img src={information.logo} alt="Maneta Logo"/>
                 </div>
-                <img src={information.orange} className="orange" alt="Aesthetic Picture of Oranges"/>
+                <img src={information.orange} className="orange" alt="Aesthetic Oranges"/>
                 <p className="description bottomDesc2">{information.description2}</p>
             </div>
         )
