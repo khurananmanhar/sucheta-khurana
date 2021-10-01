@@ -1,0 +1,12 @@
+.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 5px;
+}
+@media screen and (max-width: 1024px){
+    .title{
+        font-size:50px ;
+    }
+}

@@ -1,0 +1,42 @@
+.workTitle{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 40%;
+}
+.description{
+    font-size: 22px;
+    font-weight: 400;
+    color: #6A6D6D;
+    
+
+}
+.workIntro{
+    width: 30%;
+    margin-bottom: 50px;
+}
+.imageContainer{
+    display: flex;
+}
+.imageContainer img{
+    margin:  0 30px;
+    width: 100%;
+}
+.bottomDesc{
+    margin-top: 50px;
+}
+@media screen and (max-width: 1024px){
+.imageContainer{
+    flex-direction: column;
+    width: 100%;
+}
+.imageContainer img{
+    margin: 50px auto;
+}
+.workIntro{
+    width: 100%;
+}
+.bottomDesc{
+width: 100%;
+margin: 0 auto;
+}
+}

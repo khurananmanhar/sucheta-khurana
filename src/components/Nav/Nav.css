@@ -1,0 +1,28 @@
+.subHeading{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+.services{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.services p{
+    margin: 10px;
+    color: #6A6D6D;
+    font-size: 20px;
+}
+.services hr{
+    width: 75px;
+    height: 0;
+    margin: 5px 10px 0px 0px;
+    border: #6A6D6D 1px solid;
+}
+@media screen and (max-width: 1024px){
+    .subHeading{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,31 @@
+.closing{
+    font-size: 70px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-weight: 400;
+
+}
+.contact{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: 15%;
+}
+.contact a{
+    color: #6A6D6D;
+    text-decoration: none;
+}
+.contact a:hover{
+    color: #3a3d3d;
+}
+.closingContainer{
+    margin-top: 25%;
+}
+@media screen and (max-width: 1024px){
+    .closing{
+        font-size:50px ;
+    }
+    .contact{
+        font-size: 35px;
+    }
+}

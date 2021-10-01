@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  margin: 5% auto;
+
+}
+body{
+  background-color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.selected{
+  margin-bottom: 315px;
+}
+@media screen and (max-width: 1024px){
+  .selected{
+    margin-bottom: 150px;
+  }
+}
