@@ -1,0 +1,14 @@
+.downArrow{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    display: none;
+    font-weight: bold;
+}
+@media screen and (max-width: 400px){
+    .selected{
+        display: none;
+    }
+    .downArrow{
+        display: inline;
+    }
+}
