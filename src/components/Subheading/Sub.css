@@ -1,8 +1,10 @@
 .downArrow{
-    font-size: 50px;
-    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    writing-mode:vertical-rl;
     display: none;
-    font-weight: bold;
+}
+.selected{
+    margin-top: 20%;
 }
 @media screen and (max-width: 400px){
     .selected{
