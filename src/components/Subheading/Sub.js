@@ -7,7 +7,7 @@ class Sub extends React.Component{
         return(
             <div className="container">
                 <h3 className="subHeading selected">Featured Work</h3>
-                <p className="downArrow">&#10148;</p>
+                <p className="downArrow">˅</p>
             </div>
         )
     }

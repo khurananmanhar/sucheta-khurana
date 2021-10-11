@@ -1,7 +1,9 @@
 .downArrow{
-    font-size: 45px;
-    writing-mode:vertical-rl;
+    font-size: 120px;
+    /* writing-mode:vertical-rl; */
     display: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
 }
 .selected{
     margin-top: 20%;
